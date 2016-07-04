@@ -6,9 +6,9 @@
         <meta charset="UTF-8">
 
         <title>Cronos 1.0 Test</title>
-        <meta name="keywords" content="HTML5 Admin Template" />
-        <meta name="description" content="Porto Admin - Responsive HTML5 Template">
-        <meta name="author" content="okler.net">
+        <meta name="keywords" content="Garcia Francia" />
+        <meta name="description" content="Administrador - Pagos - Cronos">
+        <meta name="author" content="ggarcia">
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -17,28 +17,39 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
 
         <!-- Vendor CSS -->
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/bootstrap/css/bootstrap.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/bootstrap/css/bootstrap.css')}}" />
 
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/font-awesome/css/font-awesome.css')}}" />
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/magnific-popup/magnific-popup.css')}}" />
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/bootstrap-datepicker/css/datepicker3.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/font-awesome/css/font-awesome.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/magnific-popup/magnific-popup.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/bootstrap-datepicker/css/datepicker3.css')}}" />
 
         <!-- Specific Page Vendor CSS -->
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css')}}" />
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/bootstrap-multiselect/bootstrap-multiselect.css')}}" />
-        <link rel="stylesheet" href="{{URL::asset('src/vendor/morris/morris.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/bootstrap-multiselect/bootstrap-multiselect.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/vendor/morris/morris.css')}}" />
 
         <!-- Theme CSS -->
-        <link rel="stylesheet" href="{{URL::asset('src/css/theme.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/css/theme.css')}}" />
 
         <!-- Skin CSS -->
-        <link rel="stylesheet" href="{{URL::asset('src/css/skins/default.css')}}" />
+        <link rel="stylesheet" href="{{URL::asset('public/src/css/skins/default.css')}}" />
 
         <!-- Theme Custom CSS -->
-        <link rel="stylesheet" href="{{URL::asset('src/css/theme-custom.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('public/src/css/theme-custom.css')}}">
 
         <!-- Head Libs -->
-        <script src="{{URL::asset('src/vendor/modernizr/modernizr.js')}}"></script>
+            <!-- Vendor -->
+    <script src="{{URL::asset('public/src/vendor/jquery/jquery.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-browser-mobile/jquery.browser.mobile.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/bootstrap/js/bootstrap.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/nanoscroller/nanoscroller.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/magnific-popup/magnific-popup.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-placeholder/jquery.placeholder.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/handlebars/handlebars-v4.0.5.js')}}"></script>
+    <script src="{{URL::asset('public/src/js/Base.js')}}"></script>
+    
+        <script src="{{URL::asset('public/src/vendor/modernizr/modernizr.js')}}"></script>
     </head>
     <body>
         <div class="body">
@@ -47,7 +58,7 @@
             <header class="header">
                 <div class="logo-container">
                     <a href="../" class="logo">
-                        <img src="src/images/logo.png" height="35" alt="Porto Admin" />
+                        <img src="public/src/images/logo.png" height="35" alt="Porto Admin" />
                     </a>
                     <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
                         <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
@@ -133,7 +144,7 @@
                                         <li>
                                             <a href="#" class="clearfix">
                                                 <figure class="image">
-                                                    <img src="src/images/!sample-user.jpg" alt="Joseph Doe Junior" class="img-circle" />
+                                                    <img src="public/src/images/!sample-user.jpg" alt="Joseph Doe Junior" class="img-circle" />
                                                 </figure>
                                                 <span class="title">Joseph Doe</span>
                                                 <span class="message">Lorem ipsum dolor sit.</span>
@@ -142,7 +153,7 @@
                                         <li>
                                             <a href="#" class="clearfix">
                                                 <figure class="image">
-                                                    <img src="src/images/!sample-user.jpg" alt="Joseph Junior" class="img-circle" />
+                                                    <img src="public/src/images/!sample-user.jpg" alt="Joseph Junior" class="img-circle" />
                                                 </figure>
                                                 <span class="title">Joseph Junior</span>
                                                 <span class="message truncate">Truncated message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam, nec venenatis risus. Vestibulum blandit faucibus est et malesuada. Sed interdum cursus dui nec venenatis. Pellentesque non nisi lobortis, rutrum eros ut, convallis nisi. Sed tellus turpis, dignissim sit amet tristique quis, pretium id est. Sed aliquam diam diam, sit amet faucibus tellus ultricies eu. Aliquam lacinia nibh a metus bibendum, eu commodo eros commodo. Sed commodo molestie elit, a molestie lacus porttitor id. Donec facilisis varius sapien, ac fringilla velit porttitor et. Nam tincidunt gravida dui, sed pharetra odio pharetra nec. Duis consectetur venenatis pharetra. Vestibulum egestas nisi quis elementum elementum.</span>
@@ -151,7 +162,7 @@
                                         <li>
                                             <a href="#" class="clearfix">
                                                 <figure class="image">
-                                                    <img src="src/images/!sample-user.jpg" alt="Joe Junior" class="img-circle" />
+                                                    <img src="public/src/images/!sample-user.jpg" alt="Joe Junior" class="img-circle" />
                                                 </figure>
                                                 <span class="title">Joe Junior</span>
                                                 <span class="message">Lorem ipsum dolor sit.</span>
@@ -160,7 +171,7 @@
                                         <li>
                                             <a href="#" class="clearfix">
                                                 <figure class="image">
-                                                    <img src="src/images/!sample-user.jpg" alt="Joseph Junior" class="img-circle" />
+                                                    <img src="public/src/images/!sample-user.jpg" alt="Joseph Junior" class="img-circle" />
                                                 </figure>
                                                 <span class="title">Joseph Junior</span>
                                                 <span class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam.</span>
@@ -234,7 +245,7 @@
                     <div id="userbox" class="userbox">
                         <a href="#" data-toggle="dropdown">
                             <figure class="profile-picture">
-                                <img src="src/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="src/images/!logged-user.jpg" />
+                                <img src="public/src/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="public/src/images/!logged-user.jpg" />
                             </figure>
                             <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
                                 <span class="name">John Doe Junior</span>
@@ -280,14 +291,14 @@
                     <div class="nano">
                         <div class="nano-content">
                             <nav id="menu" class="nav-main" role="navigation">
-                                <ul class="nav nav-main">
+                                <ul id="generalUl" class="nav nav-main">
                                     <li class="nav-active">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             <i class="fa fa-home" aria-hidden="true"></i>
-                                            <span>Dashboard</span>
+                                            <span>Home</span>
                                         </a>
                                     </li>
-                                    <li>
+<!--                                    <li>
                                         <a href="mailbox-folder.html">
                                             <span class="pull-right label label-primary">182</span>
                                             <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -734,11 +745,11 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li>-->
                                 </ul>
                             </nav>
 
-                            <hr class="separator" />
+<!--                            <hr class="separator" />
 
                             <div class="sidebar-widget widget-tasks">
                                 <div class="widget-header">
@@ -792,7 +803,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
 
                     </div>
@@ -802,7 +813,7 @@
 
                 <div role="main" class="content-body">
                     <header class="page-header">
-                        <h2>Dashboard</h2>
+                        <h2 id="hName">Dashboard</h2>
 
                         <div class="right-wrapper pull-right">
                             <ol class="breadcrumbs">
@@ -811,10 +822,10 @@
                                         <i class="fa fa-home"></i>
                                     </a>
                                 </li>
-                                <li><span>Dashboard</span></li>
+                                <li><span>Inicio</span></li>
                             </ol>
 
-                            <a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+                            <a class="sidebar-right-toggle" ><i class="fa fa-chevron-left"></i></a>
                         </div>
                     </header>
 
@@ -826,53 +837,45 @@
         </aside>
     </div>
 
-    <!-- Vendor -->
-    <script src="{{URL::asset('src/vendor/jquery/jquery.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jquery-browser-mobile/jquery.browser.mobile.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/bootstrap/js/bootstrap.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/nanoscroller/nanoscroller.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/magnific-popup/magnific-popup.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jquery-placeholder/jquery.placeholder.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/handlebars/handlebars-v4.0.5.js')}}"></script>
+
     <!-- Specific Page Vendor -->
-    <script src="{{URL::asset('src/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jquery-appear/jquery.appear.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/bootstrap-multiselect/bootstrap-multiselect.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jquery-easypiechart/jquery.easypiechart.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/flot/jquery.flot.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/flot-tooltip/jquery.flot.tooltip.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/flot/jquery.flot.pie.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/flot/jquery.flot.categories.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/flot/jquery.flot.resize.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jquery-sparkline/jquery.sparkline.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/raphael/raphael.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/morris/morris.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/gauge/gauge.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/snap-svg/snap.svg.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/liquid-meter/liquid.meter.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/jquery.vmap.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/data/jquery.vmap.sampledata.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/jquery.vmap.world.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/continents/jquery.vmap.africa.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/continents/jquery.vmap.asia.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/continents/jquery.vmap.australia.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/continents/jquery.vmap.europe.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/continents/jquery.vmap.north-america.js')}}"></script>
-    <script src="{{URL::asset('src/vendor/jqvmap/maps/continents/jquery.vmap.south-america.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-appear/jquery.appear.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/bootstrap-multiselect/bootstrap-multiselect.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-easypiechart/jquery.easypiechart.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/flot/jquery.flot.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/flot-tooltip/jquery.flot.tooltip.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/flot/jquery.flot.pie.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/flot/jquery.flot.categories.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/flot/jquery.flot.resize.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jquery-sparkline/jquery.sparkline.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/raphael/raphael.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/morris/morris.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/gauge/gauge.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/snap-svg/snap.svg.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/liquid-meter/liquid.meter.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/jquery.vmap.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/data/jquery.vmap.sampledata.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/jquery.vmap.world.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/continents/jquery.vmap.africa.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/continents/jquery.vmap.asia.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/continents/jquery.vmap.australia.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/continents/jquery.vmap.europe.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/continents/jquery.vmap.north-america.js')}}"></script>
+    <script src="{{URL::asset('public/src/vendor/jqvmap/maps/continents/jquery.vmap.south-america.js')}}"></script>
 
     <!-- Theme Base, Components and Settings -->
-    <script src="{{URL::asset('src/js/theme.js')}}"></script>
+    <script src="{{URL::asset('public/src/js/theme.js')}}"></script>
 
     <!-- Theme Custom -->
-    <script src="{{URL::asset('src/js/theme.custom.js')}}"></script>
+    <script src="{{URL::asset('public/src/js/theme.custom.js')}}"></script>
 
     <!-- Theme Initialization Files -->
-    <script src="{{URL::asset('src/js/theme.init.js')}}"></script>
+    <script src="{{URL::asset('public/src/js/theme.init.js')}}"></script>
 
 
     <!-- Examples -->
-    <script src="{{URL::asset('src/js/dashboard/examples.dashboard.js')}}"></script>
+    <script src="{{URL::asset('public/src/js/dashboard/examples.dashboard.js')}}"></script>
 </body>
 </html>
